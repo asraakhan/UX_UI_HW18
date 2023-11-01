@@ -1,0 +1,352 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    display:flex;
+    align-items: center;
+    font-size: 96px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    block-size: 79px;
+    padding:0px;
+    color: #1e1e1e;
+    font-weight:lighter;
+    font-family: 'Fredericka the Great', serif;
+    -webkit-text-stroke: 0.6px;
+    letter-spacing:-8.5px;
+    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
+}
+h2{
+    display:flex;
+    align-items: center;
+    font-size: 64px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    block-size: 79px;
+    padding:0px;
+    color: #1e1e1e;
+    font-weight:lighter;
+    font-family: 'Fredericka the Great', serif;
+    -webkit-text-stroke: 0.6px;
+    letter-spacing:0px;
+    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
+}
+h3{
+    display:flex;
+    align-items: center;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    block-size: 79px;
+    padding:0px;
+    color: #1e1e1e;
+    font-weight:lighter;
+    font-family: 'Fredericka the Great', serif;
+    -webkit-text-stroke: 0.6px;
+    letter-spacing:0px;
+    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
+}
+
+h4{
+    display:flex;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    block-size: 79px;
+    padding:0px;
+    color: #1e1e1e;
+    font-weight:lighter;
+    font-family: 'Fredericka the Great', serif;
+    -webkit-text-stroke: 0.6px;
+    letter-spacing:0px;
+    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
+}
+
+h5{
+    font-size: 220px;
+    color:#FCE3AD;
+    font-weight:800;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -10.5px;
+}
+
+h6{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.R1 {
+    font-size: 34px;
+    color: #1e1e1e;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R2 {
+    font-size: 34px;
+    color: #1e1e1e;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R3 {
+    font-size: 34px;
+    color: #1e1e1e;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R4 {
+    font-size: 24px;
+    color: #1e1e1e;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R5 {
+    font-size: 24px;
+    color: #1e1e1e;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.R7 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R8 {
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R9 {
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R10 {
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+.R11 {
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.R12 {
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+p { 
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.white {
+    color: #ffffff;
+}
+.black {
+    color:#1e1e1e;
+}
+.yellow {
+    color:#FCBF38;
+}
+
+.logo {
+    margin-left: 51px;
+}
+.inline-block > ul, li{
+    display:flex;
+}
+
+.navigation{
+background-color: #1e1e1e;
+width: 1440px;
+height: 90px;
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navigation ul {
+    flex-direction: row;
+    margin-right:31px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+li{
+    padding:20px;
+    color:white;
+    font-family: 'raleway', sans-serif;
+    font-size: 24px;
+    max-width: 93px;
+    align-self: center;
+
+}
+
+heroImg{
+    display:flex;
+    width:1440px;
+    height:518px;
+    background-image: url("../images/background\ image\ Hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+content{
+    width:546px;
+    height:350px;
+    margin-top: 70px;
+    margin-left: 166px;
+}
+
+.title{
+    justify-content: left;
+    width:546px;
+    margin: 0px;
+}
+.AK {
+    display:flex;
+}
+
+.des1{
+    align-items: center;
+justify-content: left;
+margin-top:10px;
+margin-bottom: 10px;}
+
+.des2{
+    align-items: flex-end;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+
+button {
+    justify-content: left;
+    background-color: transparent;
+    padding:0px;
+    border-width: 0px;
+    border-color: transparent;
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: #1e1e1e;
+    width:1440px;
+    Height:215px;
+}
+.footerTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-top: 13px;
+}
+.footerul{
+    display:flex;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.FT1{
+    display:flex;
+    flex-direction: row;
+    margin:0px;
+}
+.FT2{
+    display:flex;
+    flex-direction: row;
+    margin:0px;
+    padding-left:10px;
+}
+ul{
+    display:flex;
+    float:right;
+    flex-direction: column;
+}
+.ulBottom{
+    margin:0px;
+    width:373px;
+    height:161px;
+    padding-left: 210px;
+    display:flex;
+    justify-content: flex-start;
+}
+.Location{
+    padding-left: 0px;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+   
+}
+
+.Loctext{
+    flex-direction: row;
+    margin:0px;
+    margin-left:10px;
+    width:327px;
+    white-space:nowrap;
+}
+.Mail{
+    height:53px;
+    padding-left: 0px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.Mailtext{
+    flex-direction: row;
+    margin:0px;
+    margin-left:10px;
+    width:327px;
+
+}
+.Linkedin{
+    height:53px;
+    padding-left: 0px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.Linkedintext{
+    display:inline;
+    flex-direction: row;
+    margin:0px;
+    margin-left:10px;
+    width:327px;
+    white-space:nowrap;
+
+}
