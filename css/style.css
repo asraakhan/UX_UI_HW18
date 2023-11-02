@@ -24,7 +24,7 @@ h2{
     font-size: 64px;
     margin-top: 0px;
     margin-bottom: 0px;
-    block-size: 79px;
+    block-size: 55px;
     padding:0px;
     color: #1e1e1e;
     font-weight:lighter;
@@ -349,4 +349,19 @@ ul{
     width:327px;
     white-space:nowrap;
 
+}
+.mainBody{
+    width:1440px;
+    height:1571px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1341px;
+    height: 467px;  
+    flex-shrink: 0;
 }
