@@ -192,10 +192,15 @@ p {
 .inline-block > ul, li{
     display:flex;
 }
-
+.menu{
+    display: none;
+}
+body{
+    width:100% auto;
+}
 .navigation{
 background-color: #1e1e1e;
-width: 1440px;
+width: 1440px 100%;
 height: 90px;
 display:flex;
 align-items: center;
@@ -220,12 +225,17 @@ li{
     cursor: pointer;
 
 }
-
+.HI{
+    width:100%;
+    position: absolute;
+    z-index:-1;
+    block-size: auto;
+    margin-top: -90px;
+}
 heroImg{
     display:flex;
-    width:1440px;
+    width:1440px 100%;
     height:518px;
-    background-image: url("../images/background\ image\ Hero.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -235,6 +245,7 @@ content{
     height:350px;
     margin-top: 70px;
     margin-left: 166px;
+    margin-right: 728px;
 }
 
 .title{
@@ -250,12 +261,15 @@ content{
     align-items: center;
 justify-content: left;
 margin-top:10px;
-margin-bottom: 10px;}
+margin-bottom: 10px;
+width:100%;
+}
 
 .des2{
     align-items: flex-end;
     justify-content: left;
     margin-bottom: 10px;
+    width:100%;
 }
 
 
@@ -268,7 +282,6 @@ button {
     cursor: pointer;
 }
 .mainBody{
-    width:1440px;
     height:1545px;
     display:flex;
     flex-direction: column;
@@ -334,6 +347,7 @@ button {
     display:flex;
     flex-direction: column;
     align-items: center;
+    outline: 1px solid red;
 }
 
 footer{
@@ -344,7 +358,7 @@ footer{
     padding-top: 27px;
     padding-bottom: 27px;
     background-color: #1e1e1e;
-    width:1440px;
+    width:1440px 100%;
     Height:215px;
 }
 .footerTitle{
@@ -428,4 +442,49 @@ ul{
     width:327px;
     white-space:nowrap;
 
+}
+@media only screen and (max-width:600px){
+    h1{
+        font-size: 64px;
+        block-size: 55px;
+        letter-spacing:-8.5px;
+    } 
+    h2{
+        font-size:40px;
+        block-size: 40px;
+        text-align: center;
+    }
+    h5{
+        font-size: 100px;
+        letter-spacing: -10.5px;
+    }
+    h6{
+        font-size: 40px;
+    }
+    .R6 {
+        font-size: 18px;
+    }
+    
+    .R7 {
+        font-size: 18px;
+    }
+    .logo {
+        margin-left: 18px;
+        width:51px;
+    }
+    .navigation{
+        height: 49px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .navigation ul {
+           display: none;
+        }
+    .menu{
+        display: flex;
+        width:40px;
+        color:white;
+        margin-right: 18px;
+    }
 }
