@@ -217,6 +217,7 @@ li{
     font-size: 24px;
     max-width: 93px;
     align-self: center;
+    cursor: pointer;
 
 }
 
@@ -264,6 +265,7 @@ button {
     padding:0px;
     border-width: 0px;
     border-color: transparent;
+    cursor: pointer;
 }
 .mainBody{
     width:1440px;
@@ -277,7 +279,18 @@ button {
     left: 0px;
     top: -20px;
     z-index: 0;
-    outline: 1px solid red;
+}
+.doodleL{ 
+    position: absolute;
+    left: 0px;
+    top: 903px;
+    z-index: -1;
+}
+.doodleR{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
 }
 .card{
     display:flex;
@@ -288,7 +301,6 @@ button {
     height: 467px;
     flex-shrink: 0;
     margin-top: 48px;
-    outline: 1px solid red;
 }
 .kahc{
     margin-top: 0px;
@@ -306,7 +318,6 @@ button {
     text-align: center;
     justify-content: center;
     margin-top: 20px;
-    outline: 1px solid red;
 }
 .sub{
     margin-top: 10px;
@@ -317,7 +328,6 @@ button {
     display:flex;
     align-items: end;
     justify-content: center;
-    outline: 1px solid red;
 }
 .nodeText{
     width:445px;
@@ -387,6 +397,7 @@ ul{
     margin-left:10px;
     width:327px;
     white-space:nowrap;
+    cursor:default;
 }
 .Mail{
     height:53px;
