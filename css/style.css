@@ -267,28 +267,33 @@ button {
 }
 .mainBody{
     width:1440px;
-    height:1400px;
+    height:1545px;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     justify-content: flex-start;
+    position: relative;
+    left: 0px;
+    top: -20px;
+    z-index: 0;
     outline: 1px solid red;
 }
 .card{
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     width: 1341px;
+    height: 467px;
     flex-shrink: 0;
-    margin-top: 60px;
+    margin-top: 48px;
     outline: 1px solid red;
 }
 .kahc{
     margin-top: 0px;
 }
 .workhp{
-    position:relative;
     block-size: 170px;
     position: absolute;
     left: 0px;
@@ -299,6 +304,12 @@ button {
     width:878px;
     height:81px;
     text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    outline: 1px solid red;
+}
+.sub{
+    margin-top: 10px;
 }
 .cardImg{
     width:1341px;
@@ -306,7 +317,15 @@ button {
     display:flex;
     align-items: end;
     justify-content: center;
+    outline: 1px solid red;
 }
+.nodeText{
+    width:445px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 footer{
     display:flex;
     flex-direction: row;
