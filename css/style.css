@@ -68,9 +68,13 @@ h4{
 h5{
     font-size: 220px;
     color:#FCE3AD;
-    font-weight:800;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -23.1px;
     font-family: 'Raleway', sans-serif;
-    letter-spacing: -10.5px;
+    margin:0px;
+    border:0px;
 }
 
 h6{
@@ -257,7 +261,29 @@ button {
     border-width: 0px;
     border-color: transparent;
 }
-
+.mainBody{
+    width:1440px;
+    height:1571px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1341px;
+    height: 467px;  
+    flex-shrink: 0;
+}
+.workhp{
+    position:relative;
+    block-size: 170px;
+    position: absolute;
+  left: 0px;
+  top: 430px;
+  z-index: -1;
+}
 footer{
     display:flex;
     flex-direction: row;
@@ -349,19 +375,4 @@ ul{
     width:327px;
     white-space:nowrap;
 
-}
-.mainBody{
-    width:1440px;
-    height:1571px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.card{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1341px;
-    height: 467px;  
-    flex-shrink: 0;
 }
