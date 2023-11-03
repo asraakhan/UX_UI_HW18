@@ -232,15 +232,15 @@ li{
     block-size: auto;
     margin-top: -90px;
 }
-heroImg{
+.heroImg{
     display:flex;
-    width:1440px 100%;
+    /* width:1440px 100%; */
     height:518px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-content{
+.content{
     width:546px;
     height:350px;
     margin-top: 70px;
@@ -290,7 +290,7 @@ button {
     justify-content: flex-start;
     position: relative;
     left: 0px;
-    top: -20px;
+    top: -15px;
     z-index: 0;
 }
 .doodleL{ 
@@ -474,9 +474,6 @@ ul{
     }
     .navigation{
         height: 49px;
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
         }
         .navigation ul {
            display: none;
@@ -486,5 +483,62 @@ ul{
         width:40px;
         color:white;
         margin-right: 18px;
+    }
+    .HI{
+        width:1316.98px;
+        z-index:-1;
+        block-size: auto;
+        margin-top: -80px;
+        margin-left: -750px;
+    
+    }
+    .heroImg{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        /* width:100%;
+        height:682px; */
+    }
+    
+    .content{
+        width:546px;
+        height:350px;
+        margin-top:480px;
+        justify-content: center;
+    }
+    
+    .title{
+        justify-content: left;
+        width:546px;
+        margin: 0px;
+    }
+    .AK {
+        display:flex;
+    }
+    
+    .des1{
+        align-items: center;
+    justify-content: left;
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:100%;
+    }
+    
+    .des2{
+        align-items: flex-end;
+        justify-content: left;
+        margin-bottom: 10px;
+        width:100%;
+    }
+    
+    
+    button {
+        justify-content: left;
+        background-color: transparent;
+        padding:0px;
+        border-width: 0px;
+        border-color: transparent;
+        cursor: pointer;
     }
 }
