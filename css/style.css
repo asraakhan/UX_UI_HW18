@@ -319,7 +319,6 @@ button {
     justify-content: space-between;
     width: 1341px;
     height: 467px;
-    flex-shrink: 0;
     margin-top: 48px;
 }
 .kahc{
@@ -458,8 +457,9 @@ ul{
     } 
     h2{
         font-size:40px;
-        block-size: 40px;
-        text-align: center;
+        block-size: auto;
+        text-align:center;
+        text-wrap:balance ;
     }
     h5{
         font-size: 100px;
@@ -512,7 +512,7 @@ ul{
     .content{
         width:auto;
         height:270px;
-        margin-top:500px;
+        margin-top:600px;
         margin-left: 18px;
         margin-right: 18px;
         justify-content: center;
@@ -555,7 +555,8 @@ ul{
         position: relative;
         margin-left: 18px;
         margin-right: 18px;
-        margin-top: 0px;
+        margin-top: 235px;
+        margin-bottom: 20px;
         z-index: 0;
     }
     .doodleL{ 
@@ -571,5 +572,52 @@ ul{
         right: 0px;
         top: 570pxpx;
         z-index: -1;
+    }
+
+    .card{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+        margin-left: 18px;
+        margin-right: 18px;
+        width: auto;
+        height: auto;
+        margin-top: 48px;
+    }
+    .kahc{
+        margin-top: 0px;
+    }
+    .workhp{
+        block-size: 170px;
+        position: absolute;
+        left: 0px;
+        top: 730px;
+        z-index: -1;
+    }
+    .cardText{
+        width:auto;
+        height:81px;
+        margin-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .sub{
+        margin-top: 10px;
+    }
+    .cardImg{
+        width:391px;
+        height:auto;
+        display:flex;
+        align-items: end;
+        justify-content: center;
+    }
+    .nodeText{
+        width:445px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        outline: 1px solid red;
     }
 }
