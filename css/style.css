@@ -378,7 +378,7 @@ footer{
 .footerTitle{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
     padding-left: 165px;
     padding-top: 13px;
 }
@@ -391,6 +391,7 @@ footer{
 .FT1{
     display:flex;
     flex-direction: row;
+    white-space:nowrap;
     margin:0px;
 }
 .FT2{
@@ -647,20 +648,20 @@ ul{
     }
     footer{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         padding-left:0px;
         padding-right:0px;
-        padding-top: 27px;
-        padding-bottom: 27px;
         background-color: #1e1e1e;
-        width:1440px 100%;
-        Height:215px;
+        width:auto;
+        Height:auto;
+        justify-content: center;
     }
     .footerTitle{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        padding-left: 165px;
+        justify-content: left;
+        padding-left: 18px;
+        padding-right: 18px;
         padding-top: 13px;
     }
     .footerul{
@@ -687,9 +688,10 @@ ul{
     }
     .ulBottom{
         margin:0px;
-        width:373px;
+        width:308px;
         height:161px;
-        padding-left: 210px;
+        padding-left: 18px;
+        padding-right: 18px;
         display:flex;
         justify-content: flex-start;
     }
@@ -704,7 +706,7 @@ ul{
         flex-direction: row;
         margin:0px;
         margin-left:10px;
-        width:327px;
+        width:300px;
         white-space:nowrap;
         cursor:default;
     }
@@ -719,7 +721,7 @@ ul{
         flex-direction: row;
         margin:0px;
         margin-left:10px;
-        width:327px;
+        width:300px;
     
     }
     .Linkedin{
@@ -734,7 +736,7 @@ ul{
         flex-direction: row;
         margin:0px;
         margin-left:10px;
-        width:327px;
+        width:300px;
         white-space:nowrap;
     
     }
