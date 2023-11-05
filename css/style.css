@@ -321,6 +321,15 @@ button {
     height: 467px;
     margin-top: 48px;
 }
+.kahcimage{
+    width:664px;
+}
+.ccaimage{
+    width:664px;
+}
+.nodeimage{
+    width:448px;
+}
 .kahc{
     margin-top: 0px;
 }
@@ -353,7 +362,6 @@ button {
     display:flex;
     flex-direction: column;
     align-items: center;
-    outline: 1px solid red;
 }
 
 footer{
@@ -460,6 +468,10 @@ ul{
         block-size: auto;
         text-align:center;
         text-wrap:balance ;
+        line-height: 40px;
+        inline-size:330px;
+        justify-content: center;
+        align-items: center;
     }
     h5{
         font-size: 100px;
@@ -563,14 +575,14 @@ ul{
         position: absolute;
         height:137.73px;
         left: 0px;
-        top: 903px;
+        top: 750px;
         z-index: -1;
     }
     .doodleR{
         position: absolute;
         height:586.92px;
         right: 0px;
-        top: 570pxpx;
+        top: 100px;
         z-index: -1;
     }
 
@@ -584,6 +596,17 @@ ul{
         width: auto;
         height: auto;
         margin-top: 48px;
+    }
+    .kahcimage{
+        margin-top:60px;
+        width:391px;
+    }
+    .ccaimage{
+        margin-top:60px;
+        width:391px;
+    }
+    .nodeimage{
+        width:303px;
     }
     .kahc{
         margin-top: 0px;
@@ -618,6 +641,101 @@ ul{
         display:flex;
         flex-direction: column;
         align-items: center;
-        outline: 1px solid red;
+    }
+    .nodeHeading{
+        inline-size:150px;
+    }
+    footer{
+        display:flex;
+        flex-direction: row;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        background-color: #1e1e1e;
+        width:1440px 100%;
+        Height:215px;
+    }
+    .footerTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 165px;
+        padding-top: 13px;
+    }
+    .footerul{
+        display:flex;
+        align-items: center;
+        padding-top: 0px;
+    }
+    
+    .FT1{
+        display:flex;
+        flex-direction: row;
+        margin:0px;
+    }
+    .FT2{
+        display:flex;
+        flex-direction: row;
+        margin:0px;
+        padding-left:10px;
+    }
+    ul{
+        display:flex;
+        float:right;
+        flex-direction: column;
+    }
+    .ulBottom{
+        margin:0px;
+        width:373px;
+        height:161px;
+        padding-left: 210px;
+        display:flex;
+        justify-content: flex-start;
+    }
+    .Location{
+        padding-left: 0px;
+        padding-top: 11.5px;
+        padding-bottom: 11.5px;
+       
+    }
+    
+    .Loctext{
+        flex-direction: row;
+        margin:0px;
+        margin-left:10px;
+        width:327px;
+        white-space:nowrap;
+        cursor:default;
+    }
+    .Mail{
+        height:53px;
+        padding-left: 0px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    
+    .Mailtext{
+        flex-direction: row;
+        margin:0px;
+        margin-left:10px;
+        width:327px;
+    
+    }
+    .Linkedin{
+        height:53px;
+        padding-left: 0px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    
+    .Linkedintext{
+        display:inline;
+        flex-direction: row;
+        margin:0px;
+        margin-left:10px;
+        width:327px;
+        white-space:nowrap;
+    
     }
 }
